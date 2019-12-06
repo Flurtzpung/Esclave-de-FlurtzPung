@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 const bot = new Discord.Client
 
 
-bot.login("NjUwNDI5OTAwNDM5ODE0MTk0.XeLQFg.qHZKjdTjynXdFi-QMVT7_wh5aOQ");
+bot.login(process.env.BOT_TOKEN);
 
 const PREFIX = "/";
 
